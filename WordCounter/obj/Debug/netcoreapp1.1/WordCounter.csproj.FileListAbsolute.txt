@@ -7,3 +7,5 @@ C:\Users\tkost\desktop\WordCounter.Solutions\WordCounter\obj\Debug\netcoreapp1.1
 C:\Users\tkost\desktop\WordCounter.Solutions\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.AssemblyInfo.cs
 C:\Users\tkost\desktop\WordCounter.Solutions\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.dll
 C:\Users\tkost\desktop\WordCounter.Solutions\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\tkost\Desktop\WordCounter.Solutions\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.csprojResolveAssemblyReference.cache
+C:\Users\tkost\Desktop\WordCounter.Solutions\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.AssemblyInfoInputs.cache

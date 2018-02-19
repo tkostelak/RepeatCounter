@@ -12,3 +12,4 @@ C:\Users\tkost\desktop\WordCounter.Solutions\WordCounter.tests\obj\Debug\netcore
 C:\Users\tkost\desktop\WordCounter.Solutions\WordCounter.tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.AssemblyInfo.cs
 C:\Users\tkost\desktop\WordCounter.Solutions\WordCounter.tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.dll
 C:\Users\tkost\desktop\WordCounter.Solutions\WordCounter.tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.pdb
+C:\Users\tkost\Desktop\WordCounter.Solutions\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.AssemblyInfoInputs.cache

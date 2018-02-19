@@ -1,6 +1,6 @@
 *Word Counter specs*
 
-**1. The user enters a word and a string, and both are turned into a separate list.**
+**1. The user enters sentence, and it is turned into a list.**
 
   Input:
 	Word: banana
@@ -55,7 +55,7 @@
     	String: “Got milk?”
     	OutPut: 0
 
-    	Even though go is in the string the user input, it does not exist as an  individual word..
+    	Even though go is in the string the user input, it does not exist as an  individual word.
 
     **6. The user enters a plural version of the word, and the app outputs the plural     
 	Instance as one time.**
