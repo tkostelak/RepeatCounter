@@ -10,17 +10,3 @@ namespace WordCounterProject.Test
   public class WordCounterTest
   {
     [TestMethod]
-    public void ToListWord_UserSubmitsWord_ReturnsList()
-    {
-      WordCounter newWordCounter = new WordCounter();
-      newWordCounter.SetSentence("hello");
-
-      List<string> sentenceList = new list<string> {"hello friend"};
-
-      CollectionAssert.AreEqual(wordList, newWordCounter.SentenceToList());
-    }
-
-
-
-    }
-  }
