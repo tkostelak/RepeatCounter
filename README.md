@@ -1,6 +1,6 @@
 BDD WORD COUNTER
 
-First, make sure it does not track the amount of instances  for numbers or symbols,
+First, make sure it does not track the amount of instances  for numbers,
 since the app is only meant for words.
 For example, word input “12!” should return the message, “Please enter a word.”
 
