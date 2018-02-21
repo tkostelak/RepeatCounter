@@ -23,12 +23,33 @@ namespace WordCounterApp.Test
     public void IsWordNumOrSym_userWordInputIsNumber_False()
     {
       //Arrange
-      WordCounter testWordCounter2 = new WordCounter();
+      WordCounter testWordCounter = new WordCounter();
       //Act
-      bool result = testWordCounter2.IsWordNumOrSym("12345");
+      bool result = testWordCounter.IsWordNumOrSym("12345");
       //Assert
       Assert.AreEqual(false, result);
     }
 
+    [TestMethod]
+    public void WordCountTracker_WordInputIsSameAsSentence_Return1()
+    {
+      //Arrange
+      WordCounter testWordCounter = new WordCounter();
+      //Act
+      int result = testWordCounter.WordCountTracker("Hello","Hello");
+      //Assert
+      Assert.AreEqual(1, result);
+    }
+
+    [TestMethod]
+    public void WordCountTracker_WordInputIsDifferentFromSentence_Return0()
+    {
+      //Arrange
+      WordCounter testWordCounter = new WordCounter();
+      //Act
+      int result = testWordCounter.WordCountTracker("Hello","Goodbye");
+      //Assert
+      Assert.AreEqual(0, result);
+    }
   }
 }

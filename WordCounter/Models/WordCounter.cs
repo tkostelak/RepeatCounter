@@ -17,5 +17,16 @@ namespace WordCounterApp.Models
       }
       return true;
     }
+    public int WordCountTracker(string userWordInput, string userSentenceInput)
+    {
+      if (userWordInput == userSentenceInput)
+      {
+        return 1;
+      }
+      else
+      {
+        return 0;
+      }
+    }
   }
 }
