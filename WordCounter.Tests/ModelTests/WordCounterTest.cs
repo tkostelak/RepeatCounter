@@ -1,12 +1,18 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WordCounterProject;
-using WordCounterProject.Models;
+using WordCounterApp.Models;
 using System.Collections.Generic;
-using System.Linq;
+using System;
 
-namespace WordCounterProject.Test
+namespace WordCounterApp.Test
 {
   [TestClass]
   public class WordCounterTest
   {
     [TestMethod]
+    public void IsWordNumberOrSymbol_userWordInputIsNumber_True()
+    {
+      WordCounter testWordCounter = new WordCounter();
+      Assert.AreEqual(true, testWordCounter.IsWordNumOrSym("70"));
+    }
+  }
+}
