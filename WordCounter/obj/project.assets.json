@@ -9523,11 +9523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tkost\\desktop\\WordCounter.Solutions\\WordCounter\\WordCounter.csproj",
+      "projectUniqueName": "C:\\Users\\tkost\\desktop\\WordCounter\\WordCounter\\WordCounter.csproj",
       "projectName": "WordCounter",
-      "projectPath": "C:\\Users\\tkost\\desktop\\WordCounter.Solutions\\WordCounter\\WordCounter.csproj",
+      "projectPath": "C:\\Users\\tkost\\desktop\\WordCounter\\WordCounter\\WordCounter.csproj",
       "packagesPath": "C:\\Users\\tkost\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tkost\\desktop\\WordCounter.Solutions\\WordCounter\\obj\\",
+      "outputPath": "C:\\Users\\tkost\\desktop\\WordCounter\\WordCounter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tkost\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -28,5 +28,16 @@ namespace WordCounterApp.Models
         return 0;
       }
     }
+    public string SentenceToUpper(string userSentenceInput)
+    {
+      string sentenceUpper = userSentenceInput.ToUpper();
+      return sentenceUpper;
+    }
+
+    public string WordToUpper(string userWordInput)
+    {
+      string wordUpper = userWordInput.ToUpper();
+      return wordUpper;
+    }
   }
 }

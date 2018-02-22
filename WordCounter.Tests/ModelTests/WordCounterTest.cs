@@ -51,5 +51,20 @@ namespace WordCounterApp.Test
       //Assert
       Assert.AreEqual(0, result);
     }
+    [TestMethod]
+    public void SentenceToUpper_WordInputAndSentenceInputHaveDifferentCapitalization_ReturnEqual()
+    {
+      //Arrange
+      WordCounter testWordCounter = new WordCounter();
+      string userWordInput = "dog";
+      string userSentenceInput = "Dog";
+      //Act
+      string resultUserWordInput = testWordCounter.WordToUpper(userWordInput);
+      string resultUserSentenceInput = testWordCounter.SentenceToUpper(userSentenceInput);
+      //Assert
+      Assert.AreEqual(resultUserWordInput, resultUserSentenceInput);
+    }
+
+
   }
 }
