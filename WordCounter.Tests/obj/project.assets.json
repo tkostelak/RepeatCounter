@@ -10619,11 +10619,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tkost\\desktop\\WordCounter\\WordCounter.Tests\\WordCounter.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\tkost\\desktop\\WordCounter\\WordCounter.tests\\WordCounter.Tests.csproj",
       "projectName": "WordCounter.Tests",
-      "projectPath": "C:\\Users\\tkost\\desktop\\WordCounter\\WordCounter.Tests\\WordCounter.Tests.csproj",
+      "projectPath": "C:\\Users\\tkost\\desktop\\WordCounter\\WordCounter.tests\\WordCounter.Tests.csproj",
       "packagesPath": "C:\\Users\\tkost\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tkost\\desktop\\WordCounter\\WordCounter.Tests\\obj\\",
+      "outputPath": "C:\\Users\\tkost\\desktop\\WordCounter\\WordCounter.tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tkost\\AppData\\Roaming\\NuGet\\NuGet.Config",

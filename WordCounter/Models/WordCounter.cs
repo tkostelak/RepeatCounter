@@ -5,6 +5,8 @@ namespace WordCounterApp.Models
 {
   public class WordCounter
   {
+    public static int wordInstance = 0;
+
     public bool IsWordNumOrSym(string userWordInput)
     {
       char[] wordInputArray = userWordInput.ToCharArray();
@@ -17,6 +19,7 @@ namespace WordCounterApp.Models
       }
       return true;
     }
+
     public int WordCountTracker(string userWordInput, string userSentenceInput)
     {
       if (userWordInput == userSentenceInput)
@@ -28,6 +31,7 @@ namespace WordCounterApp.Models
         return 0;
       }
     }
+
     public string SentenceToUpper(string userSentenceInput)
     {
       string sentenceUpper = userSentenceInput.ToUpper();
@@ -39,5 +43,21 @@ namespace WordCounterApp.Models
       string wordUpper = userWordInput.ToUpper();
       return wordUpper;
     }
+
+    public int WordCountSentence(string userWordInput, string userSentenceInput)
+    {
+      string[] sentenceInputArray = userSentenceInput.Split();
+      {
+        foreach(string word in sentenceInputArray)
+        {
+          if (word == userWordInput)
+          {
+            wordInstance += 1;
+          }
+          }
+        }
+        wordInstance += 0;
+        return wordInstance;
+      }
+    }
   }
-}

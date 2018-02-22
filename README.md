@@ -10,7 +10,7 @@ For example, the word input is “dog”, and the sentence input is “dog”. T
 Once that’s working, make sure that formatting does not affect the output results.
 For example, word input is “dog”, and sentence input is “The Dog barked.” The app should return 1.
 
-Then, work on being able to count plural instances of the word.
+Then, work on being able to count instances of the word in a sentence.
 For example, word input “dog” and sentence input “The dogs barked” should return 1.
 
 When you have that, move onto counting multiple instances of the word.
