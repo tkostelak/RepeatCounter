@@ -5,7 +5,7 @@ namespace WordCounterApp.Models
 {
   public class WordCounter
   {
-    public static int wordInstance = 0;
+    public static int _wordInstance = 0;
 
     public bool IsWordNumOrSym(string userWordInput)
     {
@@ -52,12 +52,11 @@ namespace WordCounterApp.Models
         {
           if (word == userWordInput)
           {
-            wordInstance += 1;
-          }
+            _wordInstance += 1;
           }
         }
-        wordInstance += 0;
-        return wordInstance;
+        return _wordInstance;
       }
     }
   }
+}

@@ -82,13 +82,11 @@ namespace WordCounterApp.Test
       //Arrange
       WordCounter testWordCounter = new WordCounter();
       string userWordInput = "dog";
-      string userSentenceInput = "the dog barked at the other dog in the way that a dog typically would.";
+      string userSentenceInput = "dog dog dog.";
       //Act
       int wordCountResult = testWordCounter.WordCountSentence(userWordInput, userSentenceInput);
       //Assert
       Assert.AreEqual(3, wordCountResult);
     }
-
-
   }
 }
