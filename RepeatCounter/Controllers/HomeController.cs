@@ -14,7 +14,7 @@ namespace RepeatCounterApp.Controllers
       [HttpGet("/form")]
       public ActionResult Form()
       {
-        return new EmptyResult();
+        return View();
       }
 
     }
