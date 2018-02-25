@@ -1,0 +1,22 @@
+@using RepeatCounterApp.Models;
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+    <title>repeat-counter-index</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 id="titleText"> Repeat Counter Calculator</h1>
+      </div>
+      @if (Model != null)
+      {
+        <h1 id="repeatScore"> @Repeatcounter.GetUserWord()</h1>
+        <h3 id="scoreFont"> @RepeatCounter.GetUserWord() </h3>
+        <h3 id="sentenceFont"> @RepeatCounter.GetUserSentenceInput() </h3>
+      }
+    <a href="/form"> Try another word and sentence! </a>
+  </body>
+</html>

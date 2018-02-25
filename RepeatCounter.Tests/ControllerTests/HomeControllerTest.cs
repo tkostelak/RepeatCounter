@@ -14,12 +14,14 @@ namespace RepeatCounterApp.Tests
     {
       //Arrange
       HomeController controller = new HomeController();
+      IActionResult actionResult = controller.Index();
+      ViewResult indexView = controller.Index() as ViewResult;
 
       //Act
-      ActionResult indexView = controller.Index();
+      var result = indexView.ViewData.Model;
 
       //Assert
-      Assert.IsInstanceOfType(indexView, typeof(ViewResult));
+      Assert.IsInstanceOfType(result, typeof(ViewResult));
     }
   }
 }

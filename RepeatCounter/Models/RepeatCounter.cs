@@ -6,6 +6,23 @@ namespace RepeatCounterApp.Models
   public class RepeatCounter
   {
     public static int _wordInstance = 0;
+    public static string _userWordInput;
+    public static string _userSentenceInput;
+
+    public static int GetScore()
+    {
+      return _wordInstance;
+    }
+
+    public static string GetUserWord()
+    {
+      return _userWordInput;
+    }
+
+    public static string GetUserSentenceInput()
+    {
+      return _userSentenceInput;
+    }
 
     public bool IsWordNumOrSym(string userWordInput)
     {
