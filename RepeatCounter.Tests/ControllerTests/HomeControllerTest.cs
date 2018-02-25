@@ -23,5 +23,22 @@ namespace RepeatCounterApp.Tests
       //Assert
       Assert.IsInstanceOfType(result, typeof(ViewResult));
     }
+
+    [TestMethod]
+    public void Form_ReturnsCorrectView_True()
+    {
+      //Arrange
+      HomeController controller = new HomeController();
+      IActionResult actionResult = controller.Form();
+      ViewResult formView = controller.Form() as ViewResult;
+
+      //Act
+      var result = formView.ViewData.Model;
+
+      //Assert
+      Assert.IsInstanceOfType(result, typeof(ViewResult));
+    }
+
+
   }
 }
