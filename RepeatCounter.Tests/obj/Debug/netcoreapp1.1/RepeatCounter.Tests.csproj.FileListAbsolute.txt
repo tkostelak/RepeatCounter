@@ -1,0 +1,15 @@
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\obj\Debug\netcoreapp1.1\RepeatCounter.Tests.csproj.CoreCompileInputs.cache
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\obj\Debug\netcoreapp1.1\RepeatCounter.Tests.AssemblyInfoInputs.cache
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\obj\Debug\netcoreapp1.1\RepeatCounter.Tests.AssemblyInfo.cs
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\bin\Debug\netcoreapp1.1\RepeatCounter.Tests.deps.json
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\bin\Debug\netcoreapp1.1\RepeatCounter.Tests.runtimeconfig.json
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\bin\Debug\netcoreapp1.1\RepeatCounter.Tests.runtimeconfig.dev.json
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\bin\Debug\netcoreapp1.1\RepeatCounter.Tests.dll
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\bin\Debug\netcoreapp1.1\RepeatCounter.Tests.pdb
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\bin\Debug\netcoreapp1.1\RepeatCounter.dll
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\bin\Debug\netcoreapp1.1\RepeatCounter.pdb
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\obj\Debug\netcoreapp1.1\RepeatCounter.Tests.dll
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter.tests\obj\Debug\netcoreapp1.1\RepeatCounter.Tests.pdb

@@ -1,0 +1,10 @@
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter\obj\Debug\netcoreapp1.1\RepeatCounter.csproj.CoreCompileInputs.cache
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter\obj\Debug\netcoreapp1.1\RepeatCounter.AssemblyInfoInputs.cache
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter\obj\Debug\netcoreapp1.1\RepeatCounter.AssemblyInfo.cs
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter\bin\Debug\netcoreapp1.1\RepeatCounter.deps.json
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter\bin\Debug\netcoreapp1.1\RepeatCounter.runtimeconfig.json
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter\bin\Debug\netcoreapp1.1\RepeatCounter.runtimeconfig.dev.json
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter\bin\Debug\netcoreapp1.1\RepeatCounter.dll
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter\bin\Debug\netcoreapp1.1\RepeatCounter.pdb
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter\obj\Debug\netcoreapp1.1\RepeatCounter.dll
+C:\Users\tkost\desktop\RepeatCounter.Solutions\RepeatCounter\obj\Debug\netcoreapp1.1\RepeatCounter.pdb
