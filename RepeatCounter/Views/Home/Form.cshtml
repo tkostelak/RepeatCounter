@@ -8,17 +8,20 @@
   <body>
     <div class="container">
      <div class="jumbotron">
-       <h1>Start New Repeat Counter!</h1>
+       <h1 id= "titleText2">Start New Repeat Counter!</h1>
      </div>
     <h3>Input a word and a sentence:</h3>
+    <br>
     <form action="/" method="post">
       <label for="word">Word </label>
-        <input type="text" name="wordInput">
+        <input type="text" name="wordInput"  pattern="[A-Za-z]{1,15}" title="Please enter a valid word!">
         <hr>
         <label for="sentence">Sentence</label>
         <input type="text" name="sentenceInput">
         <hr>
       <button type="submit" class="btn btn-success">Submit</button>
     </form>
+    <br>
+    <h3><a href="/"> Back to home page!</a></h3>
   </body>
 </html>

@@ -1,0 +1,23 @@
+body {
+  background-color: lightblue;
+}
+
+.jumbotron {
+  background-image: url(/img/clouds.jpg);
+  background-size: cover;
+  box-shadow: 0px 0px 25px black;
+}
+
+#titleText {
+  font-size: 60px;
+  text-align: center;
+  font-family: fantasy: chalkduster;
+  color: black;
+}
+
+#titleText2 {
+  font-size: 60px;
+  text-align: center;
+  font-family: fantasy: chalkduster;
+  color: black;
+}

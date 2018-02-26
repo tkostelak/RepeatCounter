@@ -14,7 +14,7 @@ namespace RepeatCounterApp.Tests
       //Arrange
       RepeatCounter testRepeatCounter = new RepeatCounter();
       //Act
-      bool result = testRepeatCounter.IsWordNumOrSym("Hello");
+      bool result = RepeatCounter.IsWordNumOrSym("Hello");
       //Assert
       Assert.AreEqual(true, result);
     }
@@ -25,7 +25,7 @@ namespace RepeatCounterApp.Tests
       //Arrange
       RepeatCounter testRepeatCounter = new RepeatCounter();
       //Act
-      bool result = testRepeatCounter.IsWordNumOrSym("12345");
+      bool result = RepeatCounter.IsWordNumOrSym("12345");
       //Assert
       Assert.AreEqual(false, result);
     }
@@ -36,7 +36,7 @@ namespace RepeatCounterApp.Tests
       //Arrange
       RepeatCounter testRepeatCounter = new RepeatCounter();
       //Act
-      int result = testRepeatCounter.RepeatCountTracker("Hello","Hello");
+      int result = RepeatCounter.RepeatCountTracker("Hello","Hello");
       //Assert
       Assert.AreEqual(1, result);
     }
@@ -47,7 +47,7 @@ namespace RepeatCounterApp.Tests
       //Arrange
       RepeatCounter testRepeatCounter = new RepeatCounter();
       //Act
-      int result = testRepeatCounter.RepeatCountTracker("Hello","Goodbye");
+      int result = RepeatCounter.RepeatCountTracker("Hello","Goodbye");
       //Assert
       Assert.AreEqual(0, result);
     }
@@ -59,8 +59,8 @@ namespace RepeatCounterApp.Tests
       string userWordInput = "dog";
       string userSentenceInput = "Dog";
       //Act
-      string resultUserWordInput = testRepeatCounter.WordToUpper(userWordInput);
-      string resultUserSentenceInput = testRepeatCounter.SentenceToUpper(userSentenceInput);
+      string resultUserWordInput = RepeatCounter.WordToUpper(userWordInput);
+      string resultUserSentenceInput = RepeatCounter.SentenceToUpper(userSentenceInput);
       //Assert
       Assert.AreEqual(resultUserWordInput, resultUserSentenceInput);
     }
@@ -72,7 +72,7 @@ namespace RepeatCounterApp.Tests
       string userWordInput = "dog";
       string userSentenceInput = "the dog barked";
       //Act
-      int repeatCountResult = testRepeatCounter.RepeatCountSentence(userWordInput, userSentenceInput);
+      int repeatCountResult = RepeatCounter.RepeatCountSentence(userWordInput, userSentenceInput);
       //Assert
       Assert.AreEqual(1, repeatCountResult);
     }
@@ -84,7 +84,7 @@ namespace RepeatCounterApp.Tests
       string userWordInput = "dog";
       string userSentenceInput = "dog dog dog.";
       //Act
-      int repeatCountResult = testRepeatCounter.RepeatCountSentence(userWordInput, userSentenceInput);
+      int repeatCountResult = RepeatCounter.RepeatCountSentence(userWordInput, userSentenceInput);
       //Assert
       Assert.AreEqual(3, repeatCountResult);
     }

@@ -24,14 +24,13 @@ namespace RepeatCounterApp.Controllers
         RepeatCounter newRepeatCounter = new RepeatCounter();
         string userWordInput = RepeatCounter.WordToUpper(Request.Form["wordInput"]);
         string userSentenceInput =  RepeatCounter.SentenceToUpper(Request.Form["sentenceInput"]);
+        RepeatCounter.IsWordNumOrSym(userWordInput);
         RepeatCounter.SetUserWordResults(userWordInput);
         string userWordResults = RepeatCounter.GetUserWordResults();
         int repeatResult =
 
         RepeatCounter.RepeatCountSentence(userWordInput, userSentenceInput);
         return View("Index", newRepeatCounter);
-
-
       }
     }
 }

@@ -47,7 +47,7 @@ namespace RepeatCounterApp.Models
       return userWordResults;
     }
 
-//METHODS 
+//METHODS
     public static void ResetRepeatScore()
     {
       repeatScore = 0;
