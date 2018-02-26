@@ -1,4 +1,14 @@
-BDD WORD COUNTER
+# _Repeat Counter App_
+
+#### _.NET MVC Unit Testing Exercise, 02/25/2018_
+
+#### By _**Tyler Kostelak**_
+
+## Description
+
+This application asks the user for a word and a sentence, and then returns the amount of times that the inputted word appears in the inputted sentence.
+
+## Specifications/BDD
 
 First, make sure it does not track the amount of instances  for numbers,
 since the app is only meant for words.
@@ -15,3 +25,39 @@ For example, word input “dog” and sentence input “The dogs barked” shoul
 
 When you have that, move onto counting multiple instances of the word.
 For example, word input “dog” and sentence input “The dog barked at the other dogs” should return 2.
+
+
+## Setup/Installation Requirements
+
+* Installation Requirements:
+
+.NET CORE 1.1 SDK
+.NET RUNTIME
+MONO
+Setup:
+
+* Clone this repository to your desktop.
+* Navigate to this folder in your command prompt.
+* Run dotnet restore, dotnet build, and then dotnet run commands.
+* Navigate to localhost:5000 in your preferred web browser.
+
+## Known Bugs
+
+No known bugs at this time.
+
+## Support and contact details
+
+If you have suggestions for how to help me make any additions, or if you have other feedback, please feel free to contact me at tkostelak@gmail.com. All feedback is welcome, keep in mind that the primary focus of this project is C#/.NET, so I am not necessarily looking for HTML/CSS advice.
+
+## Technologies Used
+
+* C#/.NET MVC
+* HTML
+* CSS
+
+
+### License
+
+*This software is licensed under the MIT license.*
+
+Copyright (c) 2018 **Tyler Kostelak**

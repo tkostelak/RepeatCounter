@@ -9554,11 +9554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tkost\\desktop\\RepeatCounter.Solutions\\RepeatCounter\\RepeatCounter.csproj",
+      "projectUniqueName": "C:\\Users\\tkost\\desktop\\RepeatCounter.Solutions\\repeatcounter\\RepeatCounter.csproj",
       "projectName": "RepeatCounter",
-      "projectPath": "C:\\Users\\tkost\\desktop\\RepeatCounter.Solutions\\RepeatCounter\\RepeatCounter.csproj",
+      "projectPath": "C:\\Users\\tkost\\desktop\\RepeatCounter.Solutions\\repeatcounter\\RepeatCounter.csproj",
       "packagesPath": "C:\\Users\\tkost\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tkost\\desktop\\RepeatCounter.Solutions\\RepeatCounter\\obj\\",
+      "outputPath": "C:\\Users\\tkost\\desktop\\RepeatCounter.Solutions\\repeatcounter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tkost\\AppData\\Roaming\\NuGet\\NuGet.Config",
