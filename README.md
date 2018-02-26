@@ -34,8 +34,8 @@ For example, word input “dog” and sentence input “The dog barked at the ot
 .NET CORE 1.1 SDK
 .NET RUNTIME
 MONO
-Setup:
 
+* SETUP:
 * Clone this repository to your desktop.
 * Navigate to this folder in your command prompt.
 * Run dotnet restore, dotnet build, and then dotnet run commands.
