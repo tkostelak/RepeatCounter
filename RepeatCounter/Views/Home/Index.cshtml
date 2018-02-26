@@ -13,9 +13,7 @@
       </div>
       @if (Model != null)
       {
-        <h1 id="repeatScore"> @Repeatcounter.GetUserWord()</h1>
-        <h3 id="scoreFont"> @RepeatCounter.GetUserWord() </h3>
-        <h3 id="sentenceFont"> @RepeatCounter.GetUserSentenceInput() </h3>
+        <h1>The word @RepeatCounter.GetUserWordResults() appears in the sentence @RepeatCounter.GetRepeatScore() time(s).</h1>
       }
     <a href="/form"> Try another word and sentence! </a>
   </body>

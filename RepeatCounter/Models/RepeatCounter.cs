@@ -5,15 +5,12 @@ namespace RepeatCounterApp.Models
 {
   public class RepeatCounter
   {
-    public static int _wordInstance = 0;
-    public static string _userWordInput;
-    public static string _userSentenceInput;
+    public static string userWordResults;
+    public static int repeatScore = 0;
+    private static string _userWordInput;
+    private static string _userSentenceInput;
 
-    public static int GetScore()
-    {
-      return _wordInstance;
-    }
-
+//GETTERS AND SETTERS
     public static string GetUserWord()
     {
       return _userWordInput;
@@ -24,7 +21,39 @@ namespace RepeatCounterApp.Models
       return _userSentenceInput;
     }
 
-    public bool IsWordNumOrSym(string userWordInput)
+    public static int GetRepeatScore()
+    {
+      return repeatScore;
+    }
+
+    public static void SetUserWordInput(string userWordInput)
+    {
+      _userWordInput = userWordInput;
+    }
+
+    public static void SetUserSentenceInput(string userSentenceInput)
+    {
+      _userSentenceInput = userSentenceInput;
+    }
+
+
+    public static void SetUserWordResults (string userWordInput)
+    {
+      userWordResults = userWordInput;
+    }
+
+    public static string GetUserWordResults()
+    {
+      return userWordResults;
+    }
+
+//METHODS 
+    public static void ResetRepeatScore()
+    {
+      repeatScore = 0;
+    }
+
+    public static bool IsWordNumOrSym(string userWordInput)
     {
       char[] wordInputArray = userWordInput.ToCharArray();
       foreach(char i in wordInputArray)
@@ -37,7 +66,7 @@ namespace RepeatCounterApp.Models
       return true;
     }
 
-    public int RepeatCountTracker(string userWordInput, string userSentenceInput)
+    public static int RepeatCountTracker(string userWordInput, string userSentenceInput)
     {
       if (userWordInput == userSentenceInput)
       {
@@ -49,19 +78,19 @@ namespace RepeatCounterApp.Models
       }
     }
 
-    public string SentenceToUpper(string userSentenceInput)
+    public static string SentenceToUpper(string userSentenceInput)
     {
       string sentenceUpper = userSentenceInput.ToUpper();
       return sentenceUpper;
     }
 
-    public string WordToUpper(string userWordInput)
+    public static string WordToUpper(string userWordInput)
     {
       string wordUpper = userWordInput.ToUpper();
       return wordUpper;
     }
 
-    public int RepeatCountSentence(string userWordInput, string userSentenceInput)
+    public static int RepeatCountSentence(string userWordInput, string userSentenceInput)
     {
       string[] sentenceInputArray = userSentenceInput.Split();
       {
@@ -69,10 +98,10 @@ namespace RepeatCounterApp.Models
         {
           if (word == userWordInput)
           {
-            _wordInstance += 1;
+            repeatScore += 1;
           }
         }
-        return _wordInstance;
+        return repeatScore;
       }
     }
   }
